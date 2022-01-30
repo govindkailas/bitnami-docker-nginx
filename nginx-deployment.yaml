@@ -41,7 +41,7 @@ spec:
               name: http
               protocol: TCP
           volumeMounts:
-          - mountPath: /etc/nginx # mount nginx-conf volumn to /etc/nginx
+          - mountPath: /etc/nginx # mount nginx-conf volumn to /etc/nginx 
             readOnly: true
             name: nginx-conf    
           readinessProbe:
